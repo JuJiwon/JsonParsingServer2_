@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88585DB821E8892300B1897B /* JiWonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88585DB721E8892300B1897B /* JiWonVC.swift */; };
+		88585DFA21E897BA00B1897B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88585DF921E897BA00B1897B /* Assets.xcassets */; };
 		90E0F08A21D26F110086189A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E0F08921D26F110086189A /* AppDelegate.swift */; };
 		90E0F08C21D26F110086189A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E0F08B21D26F110086189A /* ViewController.swift */; };
 		90E0F08F21D26F110086189A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E0F08D21D26F110086189A /* Main.storyboard */; };
-		90E0F09121D26F120086189A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E0F09021D26F120086189A /* Assets.xcassets */; };
 		90E0F09421D26F120086189A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E0F09221D26F120086189A /* LaunchScreen.storyboard */; };
 		90E0F09F21D26F120086189A /* JsonParsingServer2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E0F09E21D26F120086189A /* JsonParsingServer2Tests.swift */; };
 		90E0F0AA21D26F120086189A /* JsonParsingServer2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E0F0A921D26F120086189A /* JsonParsingServer2UITests.swift */; };
@@ -34,11 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88585DB721E8892300B1897B /* JiWonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiWonVC.swift; sourceTree = "<group>"; };
+		88585DF921E897BA00B1897B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90E0F08621D26F110086189A /* JsonParsingServer2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonParsingServer2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E0F08921D26F110086189A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90E0F08B21D26F110086189A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		90E0F08E21D26F110086189A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		90E0F09021D26F120086189A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90E0F09321D26F120086189A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90E0F09521D26F120086189A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90E0F09A21D26F120086189A /* JsonParsingServer2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonParsingServer2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,11 +99,12 @@
 		90E0F08821D26F110086189A /* JsonParsingServer2 */ = {
 			isa = PBXGroup;
 			children = (
+				88585DF921E897BA00B1897B /* Assets.xcassets */,
 				90E0F08921D26F110086189A /* AppDelegate.swift */,
 				90E0F08B21D26F110086189A /* ViewController.swift */,
-				90E0F08D21D26F110086189A /* Main.storyboard */,
-				90E0F09021D26F120086189A /* Assets.xcassets */,
+				88585DB721E8892300B1897B /* JiWonVC.swift */,
 				90E0F09221D26F120086189A /* LaunchScreen.storyboard */,
+				90E0F08D21D26F110086189A /* Main.storyboard */,
 				90E0F09521D26F120086189A /* Info.plist */,
 			);
 			path = JsonParsingServer2;
@@ -230,8 +233,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				90E0F09421D26F120086189A /* LaunchScreen.storyboard in Resources */,
-				90E0F09121D26F120086189A /* Assets.xcassets in Resources */,
 				90E0F08F21D26F110086189A /* Main.storyboard in Resources */,
+				88585DFA21E897BA00B1897B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +261,7 @@
 			files = (
 				90E0F08C21D26F110086189A /* ViewController.swift in Sources */,
 				90E0F08A21D26F110086189A /* AppDelegate.swift in Sources */,
+				88585DB821E8892300B1897B /* JiWonVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
